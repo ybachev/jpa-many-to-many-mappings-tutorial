@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jpa_many_to_many_mappings_tutoriall</groupId>
+    <groupId>jpa_many_to_many_mappings_tutorial</groupId>
     <artifactId>jpa_many_to_many_mappings_tutorial</artifactId>
     <version>1.0-SNAPSHOT</version>
 

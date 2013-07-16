@@ -14,8 +14,8 @@ public class JpaManyToManyMappingsTutorial {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("JpaManyToManyMappingsTutorial");
         EntityManager em = emf.createEntityManager();
-        ArtistService artistService = new ArtistService(em);
         GenreService genreService = new GenreService(em);
+        ArtistService artistService = new ArtistService(em);
 
         System.out.println("--- Finding genre ---");
         Genre genre = genreService.findGenre(1);
